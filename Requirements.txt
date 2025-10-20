@@ -1,0 +1,35 @@
+# Core AWS SDK
+boto3==1.34.7
+botocore==1.34.7
+awscli==1.32.7
+
+# Environment and Configuration
+python-dotenv==1.0.1
+
+# Image and PDF Handling
+pillow==10.2.0
+pdf2image==1.17.0
+PyPDF2==3.0.1
+pdfminer.six==20231228
+python-magic==0.4.27
+opencv-python==4.9.0.80
+
+# Optional OCR Fallbacks (for local processing or comparison)
+pytesseract==0.3.10
+textract==1.6.5
+
+# Data Processing and Utilities
+pandas==2.2.0
+numpy==1.26.4
+requests==2.31.0
+
+# Logging and JSON helpers
+loguru==0.7.2
+orjson==3.9.15
+
+# Local AWS Testing (optional)
+localstack==3.1.0
+
+# Developer Tools (optional)
+tqdm==4.66.1
+rich==13.7.0
