@@ -1,0 +1,18 @@
+=== Extracted Key-Value Pairs ===
+
+Key: 90210: -> Value:  (Confidence: 99.5%)
+Key: Date: -> Value: October 26, 2023 (Confidence: 94.2%)
+Key: STATE: -> Value: CA (Confidence: 94.3%)
+Key: DATE: -> Value: 10/26/2023 (Confidence: 94.4%)
+Key: CITY: -> Value: CA (Confidence: 94.8%)
+Key: ADDRESS: -> Value: 123 Test Lane 123 Test Lane (Confidence: 86.6%)
+Key: SITY: -> Value:  (Confidence: 91.8%)
+Key: YES -> Value:  (Confidence: 91.3%)
+Key: SIGNATURE: -> Value:  (Confidence: 91.8%)
+Key: NO -> Value:  (Confidence: 89.3%)
+Key: NAME: -> Value: John Doe (Confidence: 94.3%)
+Key: This is a test to evaluate OCR accuracy on form data. -> Value:  (Confidence: 89.5%)
+Key: It also contains field corier. -> Value:  (Confidence: 80.0%)
+Key: The form includes various field types. -> Value:  (Confidence: 88.7%)
+Key: The form includes various field types. -> Value:  (Confidence: 89.4%)
+Key: Overall clarity should to high for extraction. -> Value:  (Confidence: 60.0%)
