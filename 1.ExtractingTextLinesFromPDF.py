@@ -27,14 +27,14 @@ with open(pdf_file, "rb") as file:
 
 response = textract.detect_document_text(Document={"Bytes": pdf_bytes})
 
-# Extract text
+# Extract text from file
 lines = []
 for block in response["Blocks"]:
     if block["BlockType"] == "LINE":
         lines.append(block["Text"])
         
 # Save file in output.txt
-with open("output.txt", "w", encoding ="utf-8") as f:
+with open("output1.txt", "w", encoding ="utf-8") as f:
     f.write("\n".join(lines))
 
-print("Text extration complete and saved to output.txt")
+print("Text extration complete and saved to output1.txt")

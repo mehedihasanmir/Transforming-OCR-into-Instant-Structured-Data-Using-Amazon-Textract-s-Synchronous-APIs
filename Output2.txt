@@ -1,0 +1,10 @@
+FOR IMMEDIATE RELEASE
+Subject: Text: October 26, 2023
+This document is intended to be used as test case for
+optical charaacter recorrgiin ation (OCR software.
+contains upper lower case letters. contains a mobre
+commen and punthantion marks. The font 8 and
+The font is a standard seif tyefface, similar yine fon.
+The tent horizontaly aligned, evenly spaced.
+Please extract text contained within image.
+END OF DOCUMENT
