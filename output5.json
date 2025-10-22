@@ -1,0 +1,145 @@
+[
+    {
+        "TableNumber": 1,
+        "Type": "STANDARD",
+        "Title": "",
+        "Footer": "",
+        "Cells": [
+            {
+                "RowIndex": 1,
+                "ColumnIndex": 1,
+                "Text": "Product ID"
+            },
+            {
+                "RowIndex": 1,
+                "ColumnIndex": 2,
+                "Text": "Item Description Unit Price"
+            },
+            {
+                "RowIndex": 1,
+                "ColumnIndex": 3,
+                "Text": "Total Price"
+            },
+            {
+                "RowIndex": 2,
+                "ColumnIndex": 1,
+                "Text": "P-007"
+            },
+            {
+                "RowIndex": 2,
+                "ColumnIndex": 2,
+                "Text": "Ergonomic Keyboard 2 85.00"
+            },
+            {
+                "RowIndex": 2,
+                "ColumnIndex": 3,
+                "Text": "$170.00"
+            },
+            {
+                "RowIndex": 3,
+                "ColumnIndex": 1,
+                "Text": "S-112"
+            },
+            {
+                "RowIndex": 3,
+                "ColumnIndex": 2,
+                "Text": "Cloud Storage Plan (Yearly) $120.00"
+            },
+            {
+                "RowIndex": 3,
+                "ColumnIndex": 3,
+                "Text": "$120.00"
+            },
+            {
+                "RowIndex": 4,
+                "ColumnIndex": 1,
+                "Text": "S-112"
+            },
+            {
+                "RowIndex": 4,
+                "ColumnIndex": 2,
+                "Text": "1 12.00"
+            },
+            {
+                "RowIndex": 4,
+                "ColumnIndex": 3,
+                "Text": "$170.00"
+            },
+            {
+                "RowIndex": 5,
+                "ColumnIndex": 1,
+                "Text": ""
+            },
+            {
+                "RowIndex": 5,
+                "ColumnIndex": 2,
+                "Text": ""
+            },
+            {
+                "RowIndex": 5,
+                "ColumnIndex": 3,
+                "Text": ""
+            },
+            {
+                "RowIndex": 6,
+                "ColumnIndex": 1,
+                "Text": "M-FIL-04"
+            },
+            {
+                "RowIndex": 6,
+                "ColumnIndex": 2,
+                "Text": "A4 Printer Paper (500 sheets) $15.99"
+            },
+            {
+                "RowIndex": 6,
+                "ColumnIndex": 3,
+                "Text": "$79.95"
+            },
+            {
+                "RowIndex": 7,
+                "ColumnIndex": 1,
+                "Text": ""
+            },
+            {
+                "RowIndex": 7,
+                "ColumnIndex": 2,
+                "Text": ""
+            },
+            {
+                "RowIndex": 7,
+                "ColumnIndex": 3,
+                "Text": ""
+            },
+            {
+                "RowIndex": 8,
+                "ColumnIndex": 1,
+                "Text": "H-USB-C"
+            },
+            {
+                "RowIndex": 8,
+                "ColumnIndex": 2,
+                "Text": "USB-C Hub Adapter 335.50"
+            },
+            {
+                "RowIndex": 8,
+                "ColumnIndex": 3,
+                "Text": "$106.50"
+            },
+            {
+                "RowIndex": 9,
+                "ColumnIndex": 1,
+                "Text": "B-NOTE-200"
+            },
+            {
+                "RowIndex": 9,
+                "ColumnIndex": 2,
+                "Text": "Spiral Notebook (200 pages) 10 4.25"
+            },
+            {
+                "RowIndex": 9,
+                "ColumnIndex": 3,
+                "Text": "$42.50"
+            }
+        ]
+    }
+]
