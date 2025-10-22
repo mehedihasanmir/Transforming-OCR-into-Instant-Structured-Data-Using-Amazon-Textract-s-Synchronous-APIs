@@ -26,30 +26,29 @@ def analyze_form_from_local_file(file_path, output_file):
     results = []
 
     # Traverse blocks to find key-value pairs
-    for block in response['Blocks']:
-        if block['BlockType'] == 'KEY_VALUE_SET' and 'KEY' in block.get('EntityTypes', []):
-            key_text = ''
-            value_text = ''
-
+    for block in response["Blocks"]:
+        if block["BlockType"] == "KEY_VALUE_SET" and "KEY" in block.get("EntityTypes", []):
+            key_text = ""
+            value_text = ""
+            
             # Extract key text
-            for rel in block.get('Relationships', []):
-                if rel['Type'] == 'CHILD':
-                    for cid in rel['Ids']:
+            for rel in block.get("Relationships", []):
+                if rel["Type"] == "CHILD":
+                    for cid in rel["Ids"]:
                         child = block_map[cid]
-                        if child['BlockType'] in ['WORD', 'SELECTION_ELEMENT']:
-                            key_text += child.get('Text', '') + ' '
-
-            # Find the value block
-            for rel in block.get('Relationships', []):
-                if rel['Type'] == 'VALUE':
-                    for vid in rel['Ids']:
+                        if child["BlockType"] in ["WORD", "SELECTION_ELEMENT"]:
+                            key_text += child.get("Text", "") + ""   
+                            
+            for rel in block.get("Relationships", []):
+                if rel["Type"] == "VALUE":
+                    for vid in rel["Ids"]:
                         value_block = block_map[vid]
-                        for vrel in value_block.get('Relationships', []):
-                            if vrel['Type'] == 'CHILD':
-                                for vcid in vrel['Ids']:
+                        for vrel in value_block.get("Relationships", []):
+                            if vrel["Type"] == "CHILD":
+                                for vcid in vrel["Ids"]:
                                     vchild = block_map[vcid]
-                                    if vchild['BlockType'] in ['WORD', 'SELECTION_ELEMENT']:
-                                        value_text += vchild.get('Text', '') + ' '
+                                    if vchild["BlockType"] in ["WORD", "SELECTION_ELEMENT"]:
+                                        value_text += vchild.get("Text", "") + ""         
 
             if key_text.strip() or value_text.strip():
                 line = f"Key: {key_text.strip()} -> Value: {value_text.strip()} (Confidence: {block['Confidence']:.1f}%)"
@@ -57,7 +56,7 @@ def analyze_form_from_local_file(file_path, output_file):
                 results.append(line)
 
     with open(output_file, 'w', encoding='utf-8') as f:
-        f.write("=== Extracted Key-Value Pairs ===\n\n")
+        f.write("Extracted Key-Value Pairs\n\n")
         for line in results:
             f.write(line + "\n")
 
