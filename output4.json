@@ -1,6 +1,66 @@
 {
-    "Unknown": {
-        "Answer": "Intovative Designs Ltd.",
-        "Confidence": 58.999996185302734
-    }
+    "extracted_data": {},
+    "needs_review": [
+        {
+            "key": "Due Date:",
+            "value": "02/01/2019",
+            "confidence": 94.9
+        },
+        {
+            "key": "BILLED TO",
+            "value": "Jon Smith 6701 Mesquite Ct Heights, Maryland(MD), 20747",
+            "confidence": 94.99
+        },
+        {
+            "key": "Total",
+            "value": "$900",
+            "confidence": 94.71
+        },
+        {
+            "key": "NO.",
+            "value": "0000354",
+            "confidence": 94.7
+        },
+        {
+            "key": "DATE",
+            "value": "01/01/2019",
+            "confidence": 94.64
+        },
+        {
+            "key": "Account:",
+            "value": "04USDLR023400545064",
+            "confidence": 92.49
+        },
+        {
+            "key": "Townline Ln NE",
+            "value": "1632",
+            "confidence": 82.12
+        }
+    ],
+    "line_items": [
+        {
+            "description": "Item 1",
+            "unit_price": 100,
+            "quantity": 1,
+            "line_total": 100
+        },
+        {
+            "description": "Item 2",
+            "unit_price": 300,
+            "quantity": 1,
+            "line_total": 300
+        },
+        {
+            "description": "Item 3",
+            "unit_price": 500,
+            "quantity": 1,
+            "line_total": 500
+        },
+        {
+            "description": "",
+            "unit_price": "",
+            "quantity": "",
+            "line_total": ""
+        }
+    ]
 }
